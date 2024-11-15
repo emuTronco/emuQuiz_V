@@ -1,12 +1,48 @@
-h1 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: Candy Inc;
+  src: url("fonts/CANDY.otf") format("opentype");
 }
 
-h3,
-a {
+@font-face {
+  font-family: Magic Bubble;
+  src: url("fonts/Magic\ Bubble.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Cheri;
+  src: url("fonts/CHERI.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: Sweetie Summer;
+  src: url("fonts/Sweetie\ Summer.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Affectionately Yours;
+  src: url("fonts/Affectionately_Yours.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Bubblegum sans;
+  src: url("fonts/BubblegumSans-Regular.otf") format("opentype");
+}
+
+#titulo_quiz {
   text-align: center;
-  position: center;
+  font-family: Cheri, Arial, Helvetica, sans-serif;
+  font-size: 125px;
+  color: blueviolet;
+}
+
+#subtitulo_quiz {
+  text-align: center;
+  font-family: Cheri, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+#gif_gatita {
+  text-align: center;
 }
 
 body {
@@ -15,29 +51,55 @@ body {
   background-repeat: repeat;
 }
 
-.btn-empezar {
+#botonResultado {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   font-size: 23px;
   text-decoration: none;
   border-radius: 10px;
   padding: 10px;
-  background-color: orangered;
+  background-color: blueviolet;
   color: black;
   transition: 0.1s ease-in-out;
 }
 
-.btn-empezar:hover {
+#botonResultado:hover {
   box-shadow: 0px 0px 5px;
 }
 
 .centrar {
-  margin-top: 77px;
+  margin-top: 50px;
   text-align: center;
+  padding: 15px;
+}
+
+.centrar-2 {
+  text-align: center;
+  padding: 10px;
 }
 
 .pregunta {
   padding: 10px;
   margin: 10px;
-  border: 1px solid black;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+}
+
+.cuestion{
+  text-align: center;
+  font-family: Bubblegum sans, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.opciones {
+  text-align: center;
+  font-family: Bubblegum sans, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+#resultado {
+  text-align: center;
+  font-family: Bubblegum sans, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding: 30px;
 }
