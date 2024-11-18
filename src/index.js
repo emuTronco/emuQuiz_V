@@ -50,7 +50,7 @@ const preguntas = [
     respuestas: {
       a: "zenorTume",
       b: "ordnajelA",
-      c: "leuqaR",
+      c: "otiuqaJ",
       d: "adavlam atitaG"
     },
     respuestaCorrecta: "a"
